@@ -23,13 +23,3 @@ class Queue:
             self.arr = self.arr[1:len(self.arr)]
         else:
             print("Empty array")
-
-"""
-# example
-queue = Queue([0, 1, 3, 4, 3, 2], 20)
-queue.add(5)
-queue.remove()
-print(queue.arr)
-"""
-
-
